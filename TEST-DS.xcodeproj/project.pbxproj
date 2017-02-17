@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		792A934D1E55CC740032D746 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 792A934B1E55CC740032D746 /* Stack.c */; };
 		792A93501E55D4650032D746 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 792A934E1E55D4650032D746 /* LinkedList.c */; };
+		792A93531E55D75A0032D746 /* Queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 792A93511E55D75A0032D746 /* Queue.c */; };
 		79FC43D71E4AEF21006F1FC0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 79FC43D61E4AEF21006F1FC0 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,9 @@
 		792A934C1E55CC740032D746 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		792A934E1E55D4650032D746 /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
 		792A934F1E55D4650032D746 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		792A93511E55D75A0032D746 /* Queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Queue.c; sourceTree = "<group>"; };
+		792A93521E55D75A0032D746 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		792A93541E55D7B30032D746 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		79FC43D31E4AEF21006F1FC0 /* TEST-DS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TEST-DS"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FC43D61E4AEF21006F1FC0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,10 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				79FC43D61E4AEF21006F1FC0 /* main.c */,
+				792A93541E55D7B30032D746 /* Header.h */,
 				792A934B1E55CC740032D746 /* Stack.c */,
 				792A934C1E55CC740032D746 /* Stack.h */,
 				792A934E1E55D4650032D746 /* LinkedList.c */,
 				792A934F1E55D4650032D746 /* LinkedList.h */,
+				792A93521E55D75A0032D746 /* Queue.h */,
+				792A93511E55D75A0032D746 /* Queue.c */,
 			);
 			path = "TEST-DS";
 			sourceTree = "<group>";
@@ -130,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				792A934D1E55CC740032D746 /* Stack.c in Sources */,
+				792A93531E55D75A0032D746 /* Queue.c in Sources */,
 				792A93501E55D4650032D746 /* LinkedList.c in Sources */,
 				79FC43D71E4AEF21006F1FC0 /* main.c in Sources */,
 			);

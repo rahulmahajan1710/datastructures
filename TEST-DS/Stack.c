@@ -7,9 +7,7 @@
 //
 
 #include "Stack.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
+
 
 Stack * createStack(unsigned capacity){
     Stack *st = (Stack*)malloc(sizeof(Stack));

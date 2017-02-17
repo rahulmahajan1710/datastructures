@@ -6,6 +6,8 @@
 //  Copyright © 2017 rahul mahajan. All rights reserved.
 //
 
+#include "Header.h"
+
 struct Stack {
     int top;
     unsigned capacity;

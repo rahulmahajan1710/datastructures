@@ -1,5 +1,5 @@
 //
-//  LinkedList.h
+//  Queue.h
 //  TEST-DS
 //
 //  Created by rahul mahajan on 16/02/17.
@@ -8,4 +8,4 @@
 
 #include "Header.h"
 
-void linkedListOperations();
+void queueOperations();

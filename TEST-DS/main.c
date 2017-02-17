@@ -6,19 +6,20 @@
 //  Copyright © 2017 rahul mahajan. All rights reserved.
 //
 
-#include <stdio.h>
-#include <stdlib.h>
-
+#include "Header.h"
 #include "Stack.h"
 #include "LinkedList.h"
-
+#include "Queue.h"
 
 int main(int argc, const char * argv[]) {
     
     
-    linkedListOperations();
+   // linkedListOperations();
     
-  //  stackOperations();
+    //stackOperations();
+    
+    queueOperations();
+    
     
     return 0;
 }
